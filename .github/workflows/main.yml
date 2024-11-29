@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing Github actions'
-        run: pwd
-        
-      - name: 'testing the printing'
-        run: echo yousry
+      - name: 'printing folder contents'
+        run: ls
+
+     
